@@ -1,0 +1,1 @@
+export const data =["furniture " , "Shop" , "About Us" , "contact"]

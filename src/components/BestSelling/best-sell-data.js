@@ -1,0 +1,1 @@
+export const bestSell =["Chair" , "Beds" , "Sofa" ,"Lamp"]
