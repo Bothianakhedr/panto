@@ -16,9 +16,9 @@ const ClientReview = () => {
           </h3>
         </div>
         <div className="reviews md:flex md:gap-3 ">
-          {reviewsInfo.map((review) => {
+          {reviewsInfo.map((review ,index) => {
             return (
-              <div className="review  bg-amber-500 m-2 relative rounded-[18px] overflow-hidden  md:w-1/2 lg:w-[33.333%]">
+              <div key={index} className="review  bg-amber-500 m-2 relative rounded-[18px] overflow-hidden  md:w-1/2 lg:w-[33.333%]">
                 <img
                   src={review.bgImage}
                   className="w-full h-[476px] object-cover  "
